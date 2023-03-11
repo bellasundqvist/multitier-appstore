@@ -3,3 +3,4 @@
 # by appending the requested path as a query string parameter "path".
 RewriteEngine on
 RewriteRule ^(.*)$ index.php?path=$1 [NC,L,QSA]
+
